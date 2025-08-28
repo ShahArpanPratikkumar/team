@@ -1,0 +1,13 @@
+ #include <stdio.h>
+
+int main() {
+    int a;
+    scanf("%d",&a);
+    if(a%4==0){
+        printf("a is divisible by 4");
+        }else{
+        printf("a is not diviseble by 4");
+   }
+   
+     return 0;
+ }
